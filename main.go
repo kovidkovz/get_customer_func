@@ -114,7 +114,6 @@ func main() {
 
 	// Create a ticker that ticks every 5 minutes
 	ticker := time.NewTicker(5 * time.Minute)
-	defer ticker.Stop() // clean up the ticker at the end of the main func
 
 	// call the wrapper function as soon as the server starts
 	callCustomerAPI()
