@@ -103,6 +103,8 @@ func callCustomerAPI() {
 	}
 
 	fmt.Println("customer_data:", string(custData))
+
+	// processCustomers(js, config, custData)
 }
 
 func main() {
